@@ -6,32 +6,12 @@ bot.start((ctx) => ctx.reply(`Привет🖐🏻 ${ctx.message.from.first_name
 bot.on('text', (ctx) => {    
     const message = ctx.message.text.toLocaleLowerCase();
 
-    if(message.includes('пиздец')) {
-        ctx.reply('Тут не матерятся🤭');
-    }
-
-    if(message.includes('пизда')) {
-        ctx.reply('Тут не матерятся🤭');
-    }
-
-    if(message.includes('ебать')) {
-        ctx.reply('Тут не матерятся🤭');
-    }
-
-    if(message.includes('говно')) {
-        ctx.reply('Плохо так говорить');
-    }
-
-    if(message.includes('жопа')) {
-        ctx.reply('Плохо так говорить');
-    }
-
     if(message.includes('привет')) {
         ctx.reply(`Привет🖐🏻 ${ctx.message.from.first_name}`);
     }
 
     if(message.includes('доброе утро')) {
-        ctx.reply(`Доброе утро ${ctx.message.from.first_name}`);
+        ctx.reply(`Доброе утро`);
     }
 });
 
