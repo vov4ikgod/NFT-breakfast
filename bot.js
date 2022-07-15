@@ -27,7 +27,7 @@ bot.on('text', (ctx) => {
     }
 
     if(message.includes('привет')) {
-        ctx.reply('Привет🖐🏻 ${ctx.message.from.first_name}');
+        ctx.reply(`Привет🖐🏻 ${ctx.message.from.first_name}`);
     }
 });
 
