@@ -26,8 +26,8 @@ bot.on('text', (ctx) => {
         ctx.reply('Плохо так говорить');
     }
 
-    if(message.includes('ла')) {
-        ctx.reply('ла-ла');
+    if(message.includes('привет')) {
+        ctx.reply('Привет🖐🏻 ${ctx.message.from.first_name}');
     }
 });
 
