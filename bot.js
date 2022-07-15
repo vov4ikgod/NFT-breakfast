@@ -31,7 +31,7 @@ bot.on('text', (ctx) => {
     }
 
     if(message.includes('доброе утро')) {
-        ctx.reply(`Привет🖐🏻 ${ctx.message.from.first_name}`);
+        ctx.reply(`Доброе утро ${ctx.message.from.first_name}`);
     }
 });
 
