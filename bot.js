@@ -29,6 +29,10 @@ bot.on('text', (ctx) => {
     if(message.includes('привет')) {
         ctx.reply(`Привет🖐🏻 ${ctx.message.from.first_name}`);
     }
+
+    if(message.includes('доброе утро')) {
+        ctx.reply(`Привет🖐🏻 ${ctx.message.from.first_name}`);
+    }
 });
 
 bot.on('new_chat_member', ctx => {
